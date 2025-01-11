@@ -1,186 +1,68 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
+# Environment files
+.env
 
-# C extensions
-*.so
-
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-share/python-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
+# Python
+__pycache__/           # Python bytecode and cache files
+*.py[cod]              # Compiled Python files
+*$py.class             # PyCharm-specific files
+*.so                   # C extensions
+.Python                # Python build artifacts
+build/                 # Build output directory
+develop-eggs/          # Development eggs
+dist/                  # Distribution files
+downloads/             # Downloaded files
+eggs/                  # Eggs directory
+.eggs/                 # Hidden eggs directory
+lib/                   # Library files
+lib64/                 # 64-bit library files
+parts/                 # Parts directory
+sdist/                 # Source distribution files
+var/                   # Variable files
+wheels/                # Wheel files
+*.egg-info/            # Egg metadata
+.installed.cfg         # Installed configuration
+*.egg                  # Egg files
+MANIFEST               # Manifest file
 
 # PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
+*.manifest             # PyInstaller manifest files
+*.spec                 # PyInstaller spec files
 
 # Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
+pip-log.txt            # Pip log files
+pip-delete-this-directory.txt  # Pip cleanup files
 
 # Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.py,cover
-.hypothesis/
-.pytest_cache/
-cover/
+htmlcov/               # HTML coverage reports
+.tox/                  # Tox testing tool files
+.nox/                  # Nox testing tool files
+.coverage              # Coverage data
+.coverage.*            # Coverage data files
+.cache                 # Cache files
+nosetests.xml          # Nose test results
+coverage.xml           # Coverage XML reports
+*.cover                # Coverage files
+*.py,cover             # Python coverage files
+.hypothesis/           # Hypothesis testing tool files
+.pytest_cache/         # Pytest cache files
+cover/                 # Coverage files
 
 # Translations
-*.mo
-*.pot
+*.mo                   # Compiled message catalogs
+*.pot                  # Portable object templates
 
-# Django stuff:
-*.log
-local_settings.py
-db.sqlite3
-db.sqlite3-journal
+# Django stuff
+*.log                  # Log files
+local_settings.py      # Local Django settings
+db.sqlite3             # SQLite database
+db.sqlite3-journal     # SQLite journal files
 
-# Flask stuff:
-instance/
-.webassets-cache
+# Flask stuff
+instance/              # Flask instance directory
+.webassets-cache       # Web assets cache
 
-# Scrapy stuff:
-.scrapy
+# Scrapy stuff
+.scrapy                # Scrapy project files
 
 # Sphinx documentation
-docs/_build/
-
-# PyBuilder
-.pybuilder/
-target/
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# IPython
-profile_default/
-ipython_config.py
-
-# pyenv
-#   For a library or package, you might want to ignore these files since the code is
-#   intended to run in multiple environments; otherwise, check them in:
-# .python-version
-
-# pipenv
-#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
-#   However, in case of collaboration, if having platform-specific dependencies or dependencies
-#   having no cross-platform support, pipenv may install dependencies that don't work, or not
-#   install all needed dependencies.
-#Pipfile.lock
-
-# UV
-#   Similar to Pipfile.lock, it is generally recommended to include uv.lock in version control.
-#   This is especially recommended for binary packages to ensure reproducibility, and is more
-#   commonly ignored for libraries.
-#uv.lock
-
-# poetry
-#   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
-#   This is especially recommended for binary packages to ensure reproducibility, and is more
-#   commonly ignored for libraries.
-#   https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
-#poetry.lock
-
-# pdm
-#   Similar to Pipfile.lock, it is generally recommended to include pdm.lock in version control.
-#pdm.lock
-#   pdm stores project-wide configurations in .pdm.toml, but it is recommended to not include it
-#   in version control.
-#   https://pdm.fming.dev/latest/usage/project/#working-with-version-control
-.pdm.toml
-.pdm-python
-.pdm-build/
-
-# PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
-__pypackages__/
-
-# Celery stuff
-celerybeat-schedule
-celerybeat.pid
-
-# SageMath parsed files
-*.sage.py
-
-# Environments
-# Ignore virtual environment directories and environment-specific files
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-
-# Spyder project settings
-.spyderproject
-.spyproject
-
-# Rope project settings
-.ropeproject
-
-# mkdocs documentation
-/site
-
-# mypy
-.mypy_cache/
-.dmypy.json
-dmypy.json
-
-# Pyre type checker
-.pyre/
-
-# pytype static type analyzer
-.pytype/
-
-# Cython debug symbols
-cython_debug/
-
-# PyCharm
-#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
-#  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
-#  and can be added to the global gitignore or merged into this file.  For a more nuclear
-#  option (not recommended) you can uncomment the following to ignore the entire idea folder.
-#.idea/
-
-# PyPI configuration file
-.pypirc
-
-# Supabase local files
-# Ignore local Supabase configuration files to avoid committing sensitive data
-supabase/
-supabase_config.toml
-
-# Streamlit local files
-# Ignore Streamlit-specific configuration files (user-specific settings)
-.streamlit/
-
-# System files
-# Ignore OS-specific files that are irrelevant to the project
-.DS_Store
-Thumbs.db
+docs/_build/           # Sphinx build directory
