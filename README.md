@@ -24,13 +24,17 @@ Follow these steps to set up and run the FCorrea AI Arena Project on your local 
 
 ### **Prerequisites**
 
-- Python 3.8 or higher
-- Supabase account (https://supabase.com)
-- API keys for LLMs (OpenAI, Anthropic, Google Gemini, etc.)
+Before you begin, ensure you have the following installed:
+
+- **Python 3.8 or higher:** Required to run the backend and frontend.
+- **Supabase account:** Used for backend storage and authentication. Sign up at [https://supabase.com](https://supabase.com).
+- **API keys for LLMs:** Obtain API keys for the LLMs you plan to use (e.g., OpenAI, Anthropic, Google Gemini).
+
+---
 
 ### **Installation**
 
-1. Clone the repository:
+1. **Clone the Repository:**
    ```bash
    git clone https://github.com/flaviocorreaaiarena/FCorrea-.AI-Arena-Project.git
    cd FCorrea-.AI-Arena-Project
