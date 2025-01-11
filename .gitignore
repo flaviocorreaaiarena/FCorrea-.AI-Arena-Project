@@ -128,6 +128,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
+# Ignore virtual environment directories and environment-specific files
 .env
 .venv
 env/
@@ -169,3 +170,17 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Supabase local files
+# Ignore local Supabase configuration files to avoid committing sensitive data
+supabase/
+supabase_config.toml
+
+# Streamlit local files
+# Ignore Streamlit-specific configuration files (user-specific settings)
+.streamlit/
+
+# System files
+# Ignore OS-specific files that are irrelevant to the project
+.DS_Store
+Thumbs.db
