@@ -1,9 +1,37 @@
 # Backend Dependencies
+
+# FastAPI: A modern, fast (high-performance) web framework for building APIs with Python.
 fastapi==0.95.2
+
+# Uvicorn: A lightning-fast ASGI server for serving FastAPI applications.
 uvicorn==0.22.0
+
+# Supabase: The official Python client for interacting with Supabase, used for database and authentication.
 supabase==2.3.1
+
+# python-dotenv: Loads environment variables from a .env file into the application.
 python-dotenv==1.0.0
+
+# psycopg2-binary: A PostgreSQL adapter for Python, used for direct database access if needed.
 psycopg2-binary==2.9.6
 
+
 # Frontend Dependencies
+
+# Streamlit: A framework for building interactive web applications with Python, used for the frontend interface.
 streamlit==1.24.0
+
+
+# Development Dependencies (Optional)
+
+# black: A Python code formatter for consistent code style.
+# Uncomment the line below if you want to use Black for code formatting.
+# black==23.3.0
+
+# pylint: A static code analysis tool for identifying errors and enforcing coding standards.
+# Uncomment the line below if you want to use Pylint for code linting.
+# pylint==2.17.2
+
+# pytest: A testing framework for writing unit tests.
+# Uncomment the line below if you want to use Pytest for testing.
+# pytest==7.3.1
